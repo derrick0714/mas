@@ -1,4 +1,4 @@
 mas
 ===
 
-Microsoft academic research api by python
+Microsoft academic research api 
