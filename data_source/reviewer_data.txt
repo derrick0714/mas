@@ -1,0 +1,708 @@
+1
+katsumi tanaka
+2
+wei-ying ma
+3
+masaru kitsuregawa
+4
+ee-peng lim
+5
+ming-syan chen
+6
+carlos castillo
+7
+ning zhong
+8
+zheng chen
+9
+wee keong  ng
+10
+wei wang
+11
+bamshad mobasher
+12
+monika rauch henzinger
+13
+ji-rong wen
+14
+c. lee giles
+15
+bing liu
+16
+lei zhang
+17
+xiaodong zhang
+18
+vipin kumar
+19
+myra spiliopoulou
+20
+david hawking
+21
+wai lam
+22
+george karypis
+23
+aoying zhou
+24
+xiaoming li
+25
+gui-rong xue
+26
+ravi kumar
+27
+eugene agichtein
+28
+charu c. aggarwal
+29
+fabrizio silvestri
+30
+iadh ounis
+31
+christos faloutsos
+32
+michalis vazirgiannis
+33
+rong jin
+34
+judit bar-ilan
+35
+mounia lalmas
+36
+jennifer golbeck
+37
+jiawei han
+38
+wolfgang nejdl
+39
+ying li
+40
+nivio ziviani
+41
+xian-sheng hua
+42
+ming li
+43
+junghoo cho
+44
+rui zhang
+45
+yan liu
+46
+tie-yan liu
+47
+dongwon lee
+48
+brian d. davison
+49
+andrew tomkins
+50
+jun zhu
+51
+irwin king
+52
+tao li
+53
+tong zhang
+54
+chengxiang zhai
+55
+debora donato
+56
+ruihua song
+57
+qiang yang
+58
+raghu ramakrishnan
+59
+ryen white
+60
+changshui zhang
+61
+edleno silva de moura
+62
+hongyuan zha
+63
+ping li
+64
+andrew mccallum
+65
+alexandros ntoulas
+66
+christopher olston
+67
+ruoming jin
+68
+benjamin piwowarski
+69
+yi zhang
+70
+heikki mannila
+71
+huan liu
+72
+saharon rosset
+73
+thorsten joachims
+74
+wei ding
+75
+ah-hwee tan
+76
+jeffrey xu yu
+77
+volker tresp
+78
+d. sivakumar
+79
+dell zhang
+80
+jian pei
+81
+marc najork
+82
+xindong wu
+83
+soumen chakrabarti
+84
+nick koudas
+85
+wei fan
+86
+dit-yan yeung
+87
+olivier chapelle
+88
+hang li
+89
+chun-nan  hsu
+90
+rakesh agrawal
+91
+haixun wang
+92
+dunja mladenic
+93
+wilfred ng
+94
+georges dupret
+95
+fernando diaz
+96
+steven c. h. hoi
+97
+sriram raghavan
+98
+jon m. kleinberg
+99
+hanghang tong
+100
+aristides gionis
+101
+ronny lempel
+102
+umeshwar dayal
+103
+dennis fetterly
+104
+zhi-hua zhou
+105
+charles x. ling
+106
+floriana esposito
+107
+zijian zheng
+108
+jian hu
+109
+johannes gehrke
+110
+songqing chen
+111
+ping luo
+112
+ron kohavi
+113
+xiao li
+114
+vanja  josifovski
+115
+james bailey
+116
+vanessa murdock
+117
+kai ming  ting
+118
+jaap kamps
+119
+naren ramakrishnan
+120
+jiuyong li
+121
+hugo zaragoza
+122
+enhong chen
+123
+zaiqing nie
+124
+ning liu
+125
+jie tang
+126
+dou shen
+127
+luo si
+128
+chao liu
+129
+shichao zhang
+130
+einat amitay
+131
+lei  chen
+132
+pang-ning  tan
+133
+fosca giannotti
+134
+martin ester
+135
+marius pasca
+136
+zhong su
+137
+marcus fontoura
+138
+baoning wu
+139
+chih-jen lin
+140
+xuanhui  wang
+141
+stefan wrobel
+142
+s. sathiya keerthi
+143
+naoki abe
+144
+yunbo cao
+145
+shenghuo zhu
+146
+raymond j. mooney
+147
+gautam das
+148
+srinivasan parthasarathy
+149
+dacheng tao
+150
+deng cai
+151
+deepayan chakrabarti
+152
+bernhard scholkopf
+153
+thomas hofmann
+154
+matthew richardson
+155
+dong xin
+156
+kai yu
+157
+ying yang
+158
+nicholas j. belkin
+159
+david w. aha
+160
+ben kao
+161
+jun yan
+162
+falk scholer
+163
+sofus a. macskassy
+164
+panayiotis tsaparas
+165
+raman chandrasekar
+166
+ralf schenkel
+167
+nitesh v. chawla
+168
+qiaozhu mei
+169
+shuicheng yan
+170
+jinyan li
+171
+kenji yamanishi
+172
+alexander hinneburg
+173
+jianyong wang
+174
+evgeniy gabrilovich
+175
+chris burges
+176
+georgia koutrika
+177
+ya zhang
+178
+yixin chen
+179
+panagiotis g. ipeirotis
+180
+paolo boldi
+181
+jieping ye
+182
+sergei vassilvitskii
+183
+deepak agarwal
+184
+xingquan zhu
+185
+karsten m. borgwardt
+186
+masashi sugiyama
+187
+anthony k. h. tung
+188
+wei jiang
+189
+mikhail bilenko
+190
+hui xiong
+191
+kun zhang
+192
+raymond t. ng
+193
+kyuseok shim
+194
+frank mcsherry
+195
+ian davidson
+196
+dino pedreschi
+197
+latifur khan
+198
+lise getoor
+199
+samuel kaski
+200
+arno siebes
+201
+melanie gnasa
+202
+hui fang
+203
+anirban dasgupta
+204
+haifeng wang
+205
+rohini k. srihari
+206
+martin scholz
+207
+ramakrishnan srikant
+208
+hady wirawan lauw
+209
+max welling
+210
+spiros papadimitriou
+211
+chris clifton
+212
+kunal punera
+213
+tamas sarlos
+214
+jure leskovec
+215
+kristian kersting
+216
+klaus-robert muller
+217
+ron bekkerman
+218
+yiping ke
+219
+xiaofei he
+220
+lorenza saitta
+221
+jorg sander
+222
+daxin jiang
+223
+yi-dong shen
+224
+yehuda koren
+225
+anitha kannan
+226
+yufei tao
+227
+maxim gurevich
+228
+heng huang
+229
+gregory piatetsky-shapiro
+230
+jimeng sun
+231
+thomas seidl
+232
+jing jiang
+233
+satyen kale
+234
+li xiong
+235
+claudio  lucchese
+236
+yonghong tian
+237
+jennifer g. dy
+238
+bart goethals
+239
+lars backstrom
+240
+john langford
+241
+guozhu dong
+242
+jason weston
+243
+krisztian balog
+244
+longbing cao
+245
+thore  graepel
+246
+chen chen
+247
+wang ke
+248
+xiaoxin yin
+249
+le song
+250
+david jensen
+251
+michalis faloutsos
+252
+ingmar weber
+253
+chang-tien lu
+254
+henrik bostrom
+255
+tamas horvath
+256
+grigorios  tsoumakas
+257
+gerhard paass
+258
+bin cui
+259
+evimaria terzi
+260
+tina eliassi-rad
+261
+alexander zien
+262
+nitin jindal
+263
+zhongfei zhang
+264
+christel vrain
+265
+toon calders
+266
+jaideep vaidya
+267
+carlotta domeniconi
+268
+gu xu
+269
+jilles vreeken
+270
+shinichi morishita
+271
+simon tong
+272
+ralf herbrich
+273
+sanjay chawla
+274
+zhenjie  zhang
+275
+amol ghoting
+276
+sinno jialin pan
+277
+ramesh nallapati
+278
+peer kroger
+279
+dmitry pavlov
+280
+shantanu godbole
+281
+aris anagnostopoulos
+282
+donald metzler
+283
+jeffrey junfeng pan
+284
+bee-chung   chen
+285
+nina mishra
+286
+tijl de bie
+287
+l. venkata subramaniam
+288
+annalisa appice
+289
+ciya liao
+290
+xiaoming jin
+291
+min-ling zhang
+292
+stefan ruping
+293
+jie yin
+294
+gao cong
+295
+cameron marlow
+296
+tanya y. berger-wolf
+297
+oren kurland
+298
+behshad behzadi
+299
+jennifer neville
+300
+xifeng yan
+301
+shinjae yoo
+302
+jiangtao ren
+303
+gokhan h. bakir
+304
+fabio pinelli
+305
+shuiwang ji
+306
+siegfried nijssen
+307
+sreenivas gollapudi
+308
+david lo
+309
+david  lo
+310
+xiaokui xiao
+311
+hong cheng
+312
+michael r. berthold
+313
+alan smeaton
+314
+sugato basu
+315
+elena zheleva
+316
+byron j. gao
+317
+ariel fuxman
+318
+mohammed zaki
+319
+nikolaj tatti
+320
+ming hua
+321
+aurelie c. lozano
+322
+henrik grosskreutz
+323
+frank hoppner
+324
+gueorgi kossinets
+325
+jan pedersen
+326
+marijn koolen
+327
+kevin chang
+328
+lilyana mihalkova
+329
+ulf brefeld
+330
+james cheng
+331
+dengyong  zhou
+332
+bo long
+333
+david j. crandall
+334
+vivekanand gopalkrishnan
+335
+roberto j. bayardo
+336
+jordan l. boyd-graber
+337
+alexandre v. evfimievski
+338
+ardian kristanto poernomo
+339
+jake m. hofman
+340
+wray buntine
+341
+suhrid balakrishnan
+342
+ted senator
+343
+philip yu
+344
+michael lyu
+345
+rui kuang
+346
+kilian weinberger
+347
+james kwok
+348
+foster provost
+349
+eric xing
+350
+frank eichinger
+351
+ed chang
+352
+eamonn keogh
+353
+david cheung
+354
+bruce croft

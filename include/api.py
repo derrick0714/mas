@@ -1,8 +1,11 @@
 import functools
 import requests
 import logging
+import pprint
 
-
+import time
+import datetime
+import sys, traceback
 
 
 from config import APP_ID
@@ -19,6 +22,7 @@ class MASRespoinse(object):
     """
 
 class MAS(object):
+
     base_url = "http://academic.research.microsoft.com/json.svc/search"
 
     error_messages = (
@@ -38,10 +42,20 @@ class MAS(object):
         "Organization",
         "Keyword",
     )
+    PublicationContent = (
+        "MetaOnly",
+        "Title",
+        "Author",
+        "Abstract",
+        "ConferenceAndJournalInfo",
+        "FullVersionURL",
+        "AllInfo",
+        "Keyword"
+    )
 
     def __getattr__(self, k):
         try:
-            print "1111111"
+            #print "1111111"
             return object.__getattr__(self, k)
         except AttributeError:
             k = k.capitalize()
@@ -56,9 +70,35 @@ class MAS(object):
     def __init__(self, app_id):
         self.app_id = app_id
 
+        self.__last_reset = None
+        self.__max_calls = 15
+        self.__time_interval = 10 # seconds
+        self.__numcalls = 0
+
+
+    def wait_for_interval(self):
+    
+        if self.__last_reset == None:
+            self.__last_reset = datetime.datetime.now()
+
+        if self.__numcalls >= self.__max_calls:
+            time_delta = datetime.datetime.now() - self.__last_reset
+            time_delta = int(time_delta.total_seconds()) + 1
+            if time_delta <= self.__time_interval:
+                print "ready to sleep {0}s".format(self.__time_interval - time_delta + 1)
+                time.sleep(self.__time_interval - time_delta + 1)
+            self.__numcalls = 0
+            self.__last_reset = datetime.datetime.now()
+
+        self.__numcalls += 1
+     
+
     def request(self, params):
+      
+        self.wait_for_interval()
+       
         params['AppId'] = self.app_id
-        print ("PARAMS {0}").format(params) # FIXME logging
+        #print ("PARAMS {0}").format(params) # FIXME logging
         result_objects = params['ResultObjects']
         resp = requests.request("GET", self.base_url, params=params)
         try:
@@ -67,6 +107,7 @@ class MAS(object):
            #pprint.pprint(resp_data['d'])
         except:
             print ("The json response has no 'd' key")
+            pprint.pprint(resp)
             print ("Response TEXT {0}").format(resp.text)
             print ("Response JSON {0}").format(resp.json)
             raise

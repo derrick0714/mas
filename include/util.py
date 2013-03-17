@@ -47,7 +47,7 @@ class rate_evenly_limited(object):
 
             time_delta = now - self.__last_call
             time_delta = int(time_delta.total_seconds())
-            print time_delta
+            #print time_delta
             if time_delta <= self.__time_interval:
                 time.sleep(self.__time_interval - time_delta)
 
