@@ -1,4 +1,5 @@
 from include.api import api
+import pprint
 
 class APIS(object):
 	def print_athor_info(self,people):
@@ -28,16 +29,73 @@ class APIS(object):
 		print line
 
 	def print_publications(self, peoples):
-		params = {}
-		params['ResultObjects'] = "Publication"
-		params['PublicationContent'] = "Title,Author,Abstract,FullVersionURL"
-		params['AuthorQuery'] = peoples
-		params['StartIdx'] = 1
-		params['EndIdx'] = 5
-		params['YearStart'] = "2005"
-		params['OrderBy'] = "Year"
+		num = 1
+		print "Querying results(after 2005) from Microsoft API ...."
+		peoples_new = peoples.split(',')
+		co_author_publishtions = []
+		for people in peoples_new:
+			id = self.getuthor_id(people)
+			publishtions = self.get_publitions_by_id(id)
+			if( publishtions != None):
+				print "[{3}] author: {0} id: {1}, publishtions: {2}".format(people, id, len(publishtions),num)
+			num = num +1
+			if( len(co_author_publishtions) == 0 ):
+				for i in publishtions:
+					co_author_publishtions.append(i)
+			else:
+				temp_list = []
+				for i in co_author_publishtions:
+					for j in publishtions:
+						if( j == i ):
+							temp_list.append(i)
+							break
+				co_author_publishtions = temp_list
+		print "{0} : {1} co-authors since 2005".format( peoples, len(co_author_publishtions))
 
-		result= api.request(params)
-		if(result == None):
+
+
+	def getuthor_id(self, people):
+
+		params = {}
+		params['ResultObjects'] = "Author"
+		params['AuthorQuery'] = people
+		params['StartIdx'] = "1"
+		params['EndIdx'] = "1"
+		params['OrderBy'] = "rank"
+		#pprint.pprint(params)
+		result=  api.request(params)
+		if(result == None or result['Result'] == None):
 			print" Microsoft API maybe not working..."
-		print peoples +" have {0} publications since 2005".format(result['TotalItem'])
+		res = result['Result'][0];
+		#pprint.pprint(res)
+		return res['ID']
+
+	def get_publitions_by_id(self, id):
+
+		StartIdx = 1
+		publishtions = []
+		while (True):
+			params = {}
+			params['ResultObjects'] = "Publication"
+			params['AuthorID'] = id
+			params['StartIdx'] = StartIdx
+			params['EndIdx'] = StartIdx + 50
+			params['YearStart'] = "2005"
+			params['OrderBy'] = "Year"
+
+			
+			result=  api.request(params)
+			if(result == None or result['Result'] == None):
+				print" Microsoft API maybe not working..."
+				return None;
+
+			res = result['Result']
+			for one_publishtion in res:
+				#print one_publishtion['ID']
+				publishtions.append(one_publishtion['ID'])
+
+			if( result['TotalItem'] > StartIdx + 50):
+				StartIdx = StartIdx + 50
+			else:
+				return publishtions
+		 
